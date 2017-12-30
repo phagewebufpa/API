@@ -1,1 +1,3 @@
-# API
+PhageWeb – A web interface for the rapid identification and characterization of prophages in bacterial genomes.
+
+PhageWeb is a Web platform that performs the identification of prophages within bacterial genomes that takes into account similarity searches of genes sequences against a phage database. This computational tool allows to perform faster analyzes, thanks to the high performance of the alignment algorithm used compared to other computational alternatives. This work using indicators such as alteration of GC content and the presence of tRNA flanking the region for identification of regions prophages, in addition to allowing analysis of each of the regions through functional characterisation.  
