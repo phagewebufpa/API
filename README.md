@@ -1,4 +1,4 @@
-<h3 style="text-align: justify;"><strong>PhageWeb &ndash; A web interface for the rapid identification and characterization of prophages in bacterial genomes.</strong></h3>
+<h2 style="text-align: justify;"><strong>PhageWeb &ndash; A web interface for the rapid identification and characterization of prophages in bacterial genomes.</strong></h2>
 <p style="text-align: justify;"><strong>Software Description:</strong></p>
 <p style="text-align: justify;">PhageWeb is a Web platform that performs the identification of prophages within bacterial genomes that takes into account similarity searches of genes sequences against a phage database. This computational tool allows to perform faster analyzes, thanks to the high performance of the alignment algorithm used compared to other computational alternatives. This work using indicators such as alteration of GC content and the presence of tRNA flanking the region for identification of regions prophages, in addition to allowing analysis of each of the regions through functional characterisation.</p>
 <p style="text-align: justify;">&nbsp;</p>
@@ -16,5 +16,5 @@
 <p style="text-align: justify;"><br />Or, <br />If you have new genome, you can annotate it using RAST server (http://rast.nmpdr.org/rast.cgi). <br />After annotation, you can download the genome directory from the server.</p>
 <p style="text-align: justify;">&nbsp;</p>
 <p style="text-align: justify;"><strong>OUTPUT FILE</strong><br />There are 2 output files, located in output directory.</p>
-<p style="text-align: justify;">1. ouput_tabular.tab: This file has four columns separated by tabs [region_id, lenght the prophage, start and end (position in genome)]. <br /> <br />2. output_genbanck.gbk: This file has a Genbank complete with file submitted with one annotation from each prophage region predicted.</p>
+<p style="text-align: justify;">1. ouput_tabular.tab: This file has four columns separated by tabs [region_id, lenght the prophage, start and end (position in genome)]. <br /> <br />2. output_genbank.gbk: This file has a Genbank complete with file submitted with one annotation from each prophage region predicted.</p>
 <p style="text-align: justify;">&nbsp;</p>
