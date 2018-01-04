@@ -11,7 +11,7 @@
 <p style="text-align: justify;">1. Python - version 3.0 or later<br />2. CURL</p>
 <p style="text-align: justify;">&nbsp;</p>
 <p style="text-align: justify;"><strong>INSTALLATION</strong><br />The software installation on your system can be done by downloading it in binary format for immediate use: wget <a href="http://github.com/phagewebufpa/API/teste.py">http://github.com/phagewebufpa/API/phageweb.py</a></p>
-<p style="text-align: justify;"><br /><strong>TO RUN</strong><br />% python3 phageweb.py input_file identily minpts</p>
+<p style="text-align: justify;"><br /><strong>TO RUN</strong><br />% python3 phageweb.py [input_file] [identily] [minpts]</p>
 <p style="text-align: justify;"><strong>Where:</strong></p>
 <p style="text-align: justify;">'input_file': Bacterial genome file in Gbk format for analysis.&nbsp;Check and see if your genome file (Genbank file) contains protein sequences for all CDS and the complete nucleotide sequence. A valid genome file (See the samples files below) must have complete protein sequence data (under the "/ translation" tag).</p>
 <p style="text-align: justify;">'identily':&nbsp;It is a percentage of alignment identity against the available phage database (30% ~ 100%).</p>
@@ -19,5 +19,5 @@
 <p style="text-align: justify;"><br />Or, <br />If you have new genome, you can annotate it using RAST server (http://rast.nmpdr.org/rast.cgi). <br />After annotation, you can download the genome directory from the server.</p>
 <p style="text-align: justify;">&nbsp;</p>
 <p style="text-align: justify;"><strong>OUTPUT FILE</strong><br />There are 2 output files, located in output directory.</p>
-<p style="text-align: justify;">1. ouput_tabular.tab: This file has four columns separated by tabs [region_id, lenght the prophage, start and end (position in genome)]. <br /> <br />2. output_genbank.gbk: This file has a Genbank complete with file submitted with one annotation from each prophage region predicted.</p>
+<p style="text-align: justify;">1. ouput_tabular.tab: This file has four columns separated by tabs [region_id, lenght the prophage, start and end (position in genome)]. <br /> <br />2. output_genbank.gbk: This file has a Genbank complete with file submitted with one annotation from each prophage region predicted. <br /> <br />3. output_char.txt: Contains the biological information pertaining to all sequences identified by the software.</p>
 <p style="text-align: justify;">&nbsp;</p>
