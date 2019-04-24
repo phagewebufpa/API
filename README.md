@@ -11,7 +11,8 @@
 <p style="text-align: justify;">1. Python - version 3.0 or later</p>
 <p style="text-align: justify;">&nbsp;</p>
 <p style="text-align: justify;"><strong>INSTALLATION</strong><br />The software installation on your system can be done by downloading it in binary format for immediate use: wget <a href="http://github.com/phagewebufpa/API/teste.py">http://github.com/phagewebufpa/API/phageweb.py</a></p>
-<p style="text-align: justify;"><br /><strong>TO RUN</strong><br />% python3 phageweb.py --file [inpu_file] --id [identily] --integrity [80] --cds [minpts] --email '[mail]'"]</p>
+<p style="text-align: justify;"><br /><strong>TO RUN</strong><br />% python3 phageweb.py --file [inpu_file] --id [identily] --integrity [integrity] --cds [minpts] --email '[mail]</p>
+<p style="text-align: justify;"><br /><strong>Example:</strong><br />% python3 phageweb.py --file genome.gbk --id 80 --integrity 90 --cds 6 --email '[example@mail.com]</p>
 <p style="text-align: justify;"><strong>Where:</strong></p>
 <p style="text-align: justify;">'input_file': Bacterial genome file in Gbk format for analysis.&nbsp;Check and see if your genome file (Genbank file) contains protein sequences for all CDS and the complete nucleotide sequence. A valid genome file (See the samples files below) must have complete protein sequence data (under the "/ translation" tag).</p>
 <p style="text-align: justify;">'identily':&nbsp;It is a percentage of alignment identity against the available phage database (30% ~ 100%).</p>
