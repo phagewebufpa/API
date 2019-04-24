@@ -11,11 +11,13 @@
 <p style="text-align: justify;">1. Python - version 3.0 or later</p>
 <p style="text-align: justify;">&nbsp;</p>
 <p style="text-align: justify;"><strong>INSTALLATION</strong><br />The software installation on your system can be done by downloading it in binary format for immediate use: wget <a href="http://github.com/phagewebufpa/API/teste.py">http://github.com/phagewebufpa/API/phageweb.py</a></p>
-<p style="text-align: justify;"><br /><strong>TO RUN</strong><br />% python3 phageweb.py [input_file] [identily] [minpts]</p>
+<p style="text-align: justify;"><br /><strong>TO RUN</strong><br />% python3 phageweb.py --file [inpu_file] --id [identily] --integrity [80] --cds [minpts] --email '[mail]'"]</p>
 <p style="text-align: justify;"><strong>Where:</strong></p>
 <p style="text-align: justify;">'input_file': Bacterial genome file in Gbk format for analysis.&nbsp;Check and see if your genome file (Genbank file) contains protein sequences for all CDS and the complete nucleotide sequence. A valid genome file (See the samples files below) must have complete protein sequence data (under the "/ translation" tag).</p>
 <p style="text-align: justify;">'identily':&nbsp;It is a percentage of alignment identity against the available phage database (30% ~ 100%).</p>
-<p style="text-align: justify;">'minpts':&nbsp;is the minimum number of phage proteins in a prophage region (clustering).</p>
+<p style="text-align: justify;">'integrity ':&nbsp;is the minimum number of phage proteins in a prophage region (clustering).</p>
+<p style="text-align: justify;">'minpts':&nbsp;that will be used in the analysis of the elements of the regions of prophages identified.</p>
+<p style="text-align: justify;">'mail':&nbsp;email that do you want to receive the results .</p>
 <p style="text-align: justify;"><br />Or, <br />If you have new genome, you can annotate it using RAST server (http://rast.nmpdr.org/rast.cgi). <br />After annotation, you can download the genome directory from the server.</p>
 <p style="text-align: justify;">&nbsp;</p>
 <p style="text-align: justify;"><strong>OUTPUT FILE</strong><br />There are 2 output files, located in output directory.</p>
