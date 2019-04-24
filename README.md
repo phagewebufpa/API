@@ -8,7 +8,7 @@
 <p style="text-align: justify;">The PhageWeb website is maintained by Center of Genomic and System Biology - Federal University of Par&aacute; (http://computationalbiology.ufpa.br/site/)</p>
 <p style="text-align: justify;"><strong>SYSTEM REQUIREMENTS</strong><br />The program should run on all Unix platforms, although it was not tested in all platforms.</p>
 <p style="text-align: justify;"><br /><strong>SOFTWARE REQUIREMENTS</strong><br />PhageWeb requires following programs to be installed in the system.</p>
-<p style="text-align: justify;">1. Python - version 3.0 or later<br />2. CURL</p>
+<p style="text-align: justify;">1. Python - version 3.0 or later</p>
 <p style="text-align: justify;">&nbsp;</p>
 <p style="text-align: justify;"><strong>INSTALLATION</strong><br />The software installation on your system can be done by downloading it in binary format for immediate use: wget <a href="http://github.com/phagewebufpa/API/teste.py">http://github.com/phagewebufpa/API/phageweb.py</a></p>
 <p style="text-align: justify;"><br /><strong>TO RUN</strong><br />% python3 phageweb.py [input_file] [identily] [minpts]</p>
